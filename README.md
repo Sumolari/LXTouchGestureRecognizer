@@ -2,16 +2,18 @@
 
 # LXTouchGestureRecognizer
 
-Continuous `UIGestureRecognizer` allowing `UIControl`-like event listening. 
+Continuous `UIGestureRecognizer` allowing `UIControl`-like event listening.
 See [http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer](http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer) for more details.
 
 # Installation
 
 ```ruby
-pod 'LXTouchGestureRecognizer', '~> 0.0.1'
+pod 'LXTouchGestureRecognizer', '~> 0.0.2'
 ```
 
 # Usage
+
+## Objective-C
 
 ```objective-c
 - (void)viewDidLoad {
@@ -26,4 +28,3 @@ pod 'LXTouchGestureRecognizer', '~> 0.0.1'
     NSLog(@"Touch Up Inside!");
 }
 ```
-
