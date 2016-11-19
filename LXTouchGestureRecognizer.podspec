@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer/.
                    DESC
 
+  s.homepage     = "https://github.com/Sumolari/LXTouchGestureRecognizer.git"
+
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.platform = :ios
