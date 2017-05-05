@@ -33,10 +33,6 @@ appledoc \
 	--output "docs" \
 	--no-create-docset .
 
-mv docs/html docs.new
-rm -rf docs
-mv docs.new docs
-
 # Switch to pages
 msg "Replacing documentation..."
 git checkout -q gh-pages
@@ -45,8 +41,8 @@ git checkout -q gh-pages
 git rm -q --ignore-unmatch -rf .
 git reset -q -- .gitignore
 git checkout -q -- .gitignore
-cp -a docs/* .
-rm docs
+cp -a docs/html/* .
+rm -rf docs
 git add .
 git commit -m ":memo: Update docs for $last_rev" -m "$last_msg"
 git push -qu origin gh-pages
