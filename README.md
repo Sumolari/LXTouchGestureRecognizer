@@ -5,10 +5,12 @@
 Continuous `UIGestureRecognizer` allowing `UIControl`-like event listening.
 See [http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer](http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer) for more details.
 
+Complete [documentation](https://sumolari.github.io/LXTouchGestureRecognizer).
+
 # Installation
 
 ```ruby
-pod 'LXTouchGestureRecognizer', '~> 0.0.2'
+pod 'LXTouchGestureRecognizer', '~> 1.0.0'
 ```
 
 # Usage
