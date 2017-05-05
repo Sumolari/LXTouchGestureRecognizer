@@ -29,6 +29,9 @@
  */
 @interface LXTouchGestureRecognizer : UILongPressGestureRecognizer
 
+/**
+ * Initializes this instance with no target/action.
+ */
 - (instancetype)init;
 
 /**
