@@ -1,4 +1,4 @@
-[![CocoaPods](https://img.shields.io/cocoapods/v/LXTouchGestureRecognizer.svg)]()
+![platforms](https://img.shields.io/cocoapods/p/LXTouchGestureRecognizer.svg) [![pod version](https://img.shields.io/cocoapods/v/LXTouchGestureRecognizer.svg)](https://cocoapods.org/pods/LXTouchGestureRecognizer) ![license](https://img.shields.io/cocoapods/l/LXTouchGestureRecognizer.svg)
 
 # LXTouchGestureRecognizer
 
