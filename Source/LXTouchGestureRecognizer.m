@@ -55,10 +55,7 @@
 }
 
 - (instancetype)init {
-  self = [self initWithTarget:nil action:NULL];
-  if (self) {
-  }
-  return self;
+  return [self initWithTarget:nil action:NULL];
 }
 
 #pragma mark - UIControl
