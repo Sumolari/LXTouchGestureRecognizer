@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>LXTouchGestureRecognizer Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/prism.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/format.js"></script>
+	<script src="../js/prism.js" data-manual></script>
+	<script>
+		jQuery.noConflict();
+		jQuery( document ).ready(function( $ ) {
+ 			$("pre code").each(function(i, block) {
+				$(this).addClass("language-objectivec")
+				$(this).formatObjectiveC();
+			});
+
+			Prism.highlightAll()
+		});
+	</script>
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">LXTouchGestureRecognizer </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html"> </a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addTarget:action:forControlEvents:">- addTarget:action:forControlEvents:</option>
+		
+		<option value="//api/name/initWithTarget:action:">- initWithTarget:action:</option>
+		
+		<option value="//api/name/removeTarget:action:forControlEvents:">- removeTarget:action:forControlEvents:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">LXTouchGestureRecognizer Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>UILongPressGestureRecognizer</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>LXTouchGestureRecognizer.h<br />LXTouchGestureRecognizer.m</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Continuous UIGestureRecognizer allowing UIControl-like event listening.</p>
+
+<p><a href="http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer">http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer</a></p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initWithTarget:action:" title="initWithTarget:action:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithTarget:action:">&ndash;&nbsp;initWithTarget:action:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initializes this instance with an additional target/action to be triggered
+on gesture recognizer default events.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><pre><code>- (instancetype)initWithTarget:(id)<em>target</em> action:(SEL)<em>action</em></code></pre></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target object—that is, the object whose action method is
+called. If you specify <code>nil</code>, UIKit searches the responder
+chain for an object that responds to the specified action
+message and delivers the message to that object.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>action</code></th>
+						<td><p>A selector identifying the action method to be called. This
+parameter must not be <code>nil</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Initializes this instance with an additional target/action to be triggered
+on gesture recognizer default events.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">LXTouchGestureRecognizer.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addTarget:action:forControlEvents:" title="addTarget:action:forControlEvents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addTarget:action:forControlEvents:">&ndash;&nbsp;addTarget:action:forControlEvents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Associates a target object and action method with the control.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)addTarget:(id)<em>target</em> action:(SEL)<em>action</em> forControlEvents:(UIControlEvents)<em>controlEvents</em></code></pre></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>The target object—that is, the object whose action method is
+called. If you specify <code>nil</code>, UIKit searches the responder
+chain for an object that responds to the specified action
+message and delivers the message to that object.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>action</code></th>
+						<td><p>A selector identifying the action method to be called. This
+parameter must not be <code>nil</code>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>controlEvents</code></th>
+						<td><p>A bitmask specifying the control-specific events for
+which the action method is called. Always specify at
+least one constant. For a list of possible constants,
+see <code>UIControlEvents</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Associates a target object and action method with the control.</p>
+
+<h1>Discussion</h1>
+
+<p>You may call this method multiple times to configure multiple targets and
+actions for the control. It is also safe to call this method multiple times
+with the same values for the target and action parameters. The control
+maintains a list of its attached targets and actions along and the events
+each supports.</p>
+
+<p>The control does not retain the object in the target parameter. It is your
+responsibility to maintain a strong reference to the target object while it
+is attached to a control.</p>
+
+<p>Specifying a value of <code>0</code> for the <code>controlEvents</code> parameter does not prevent
+events from being sent to a previously registered target and action method.
+To stop the delivery of events, always call the <code>removeTarget(_:action:for:)</code>
+method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">LXTouchGestureRecognizer.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeTarget:action:forControlEvents:" title="removeTarget:action:forControlEvents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeTarget:action:forControlEvents:">&ndash;&nbsp;removeTarget:action:forControlEvents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops the delivery of events to the specified target object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)removeTarget:(id)<em>target</em> action:(SEL)<em>action</em> forControlEvents:(UIControlEvents)<em>controlEvents</em></code></pre></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>target</code></th>
+						<td><p>A target object registered with the control.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>action</code></th>
+						<td><p>A selector identifying a registered action method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>controlEvents</code></th>
+						<td><p>A bitmask specifying the control events that you want to
+remove for the specified target object. For a list of
+possible constants, see <code>UIControlEvents</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Stops the delivery of events to the specified target object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">LXTouchGestureRecognizer.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017  . All rights reserved. Updated: 2017-05-05</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
