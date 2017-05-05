@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LXTouchGestureRecognizer"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "Continuous touch gesture recognizer."
 
   s.description  = <<-DESC
