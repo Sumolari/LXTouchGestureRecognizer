@@ -22,6 +22,11 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Continuous UIGestureRecognizer allowing UIControl-like event listening.
+ *
+ * http://lxcid.com/2015/01/01/highlight-with-gesture-recognizer
+ */
 @interface LXTouchGestureRecognizer : UILongPressGestureRecognizer
 
 - (instancetype)init;
